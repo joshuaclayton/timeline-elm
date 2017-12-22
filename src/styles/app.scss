@@ -1,0 +1,23 @@
+@import 'normalize';
+
+#app {
+  width: 98vw;
+  margin: 0 1vw;
+}
+
+#chart svg {
+  height: 50vh;
+  width: 100%;
+}
+
+#inputs {
+  height: 42vh;
+
+  textarea {
+    border: 1px solid #eee;
+    font-family: "Inconsolata", monospace;
+    outline: none;
+    height: 95%;
+    width: 100%;
+  }
+}
